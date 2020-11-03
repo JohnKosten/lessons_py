@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ac6d26d-305c-4804-86e9-91cb0f38f475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigqueryconnection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigqueryhelpery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_table_bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_table_pie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_table_scatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackover_posts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp-plot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_lessons.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigqueryhelpery.py" beforeDir="false" afterPath="$PROJECT_DIR$/bigqueryhelpery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_table_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_table_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_table_pie.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_table_pie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_table_scatter.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_table_scatter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,22 +203,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604399661707" />
-    <state width="1364" height="195" key="GridCell.Tab.0.bottom" timestamp="1604410034630">
+    <state width="1364" height="195" key="GridCell.Tab.0.bottom" timestamp="1604410163849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604410034630" />
-    <state width="1364" height="195" key="GridCell.Tab.0.center" timestamp="1604410034630">
+    <state width="1364" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604410163849" />
+    <state width="1364" height="195" key="GridCell.Tab.0.center" timestamp="1604410163849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604410034630" />
-    <state width="1364" height="195" key="GridCell.Tab.0.left" timestamp="1604410034630">
+    <state width="1364" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604410163849" />
+    <state width="1364" height="195" key="GridCell.Tab.0.left" timestamp="1604410163849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604410034630" />
-    <state width="1364" height="195" key="GridCell.Tab.0.right" timestamp="1604410034630">
+    <state width="1364" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604410163849" />
+    <state width="1364" height="195" key="GridCell.Tab.0.right" timestamp="1604410163849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604410034630" />
+    <state width="1364" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604410163849" />
     <state width="1364" height="242" key="GridCell.Tab.1.bottom" timestamp="1604407832897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
