@@ -39,7 +39,3 @@ cursor = connection.execute( prepared_query, {
                              )
 for row in cursor.fetchall():
     print(row)
-
-#Products
-#vend_id = 'BRS01' prod_price
-
