@@ -1,11 +1,8 @@
-from sqlalchemy import create_engine, Column, String, Integer, ForeignKey
-from sqlalchemy import select, func, and_, or_, between, union
+from sqlalchemy import create_engine, Column, String, Integer, and_, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
-
-engine = create_engine("mysql+pymysql://elko:elko@10.10.64.201/elko", echo = False)
-
+engine = create_engine("mysql+pymysql://elko:elko@10.10.64.201/elko", echo=False)
 Base = declarative_base()
 
 class City(Base):
@@ -41,18 +38,17 @@ class Places(Base):
     city = relationship("City", back_populates = "places")
 
 
-Base.metadata.create_all(engine)
-
 session = sessionmaker(engine)
 open_session = session()
 
-Kyiv = City(name="Kyiv", population=3740000)
-Kyiv.places = [ Places(name="Dnipro"), Places(name="Maidan"), Places(name="Gidropark")]
+result1= open_session.query(City,Places).filter(City.id == Places.city_fk).all()
+for city, places in result1:
+    print(city.name, places.name)
 
-open_session.add_all(
-    City(name="Kharkiv", population=1440000, places = [Places(name="Place1"), Places(name="Place2")]),
-    City(name="Lviv", population=801000, places = [Places(name="Ploscha"), Places(name="Place3")])
-)
+# VS
 
-#open_session.add(Kyiv)
-open_session.commit()
+result2 = open_session.query(City).join(Places).all()
+for city in result2:
+    print(city.name)
+    for places in city.places:
+        print(places.name)
